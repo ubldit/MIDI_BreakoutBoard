@@ -10,6 +10,7 @@ The MIDI Breakout board is an easy way to connect a hardware MIDI device to an A
 Directories
 -----------
 Hardware/ -- Schematic, PCB Layers
+
 Software/ -- Example Arduino sketches
 
 License Information
