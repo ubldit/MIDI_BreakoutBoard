@@ -9,6 +9,9 @@
 // Will send a few notes and blink the led each loop(), nothing fancy but demonstrates sending messages
 // Can easily be adapted to using physical buttons or something like an accelerometer
 //
+// **** Note that if you are using the RX and TX on the Arduino, if its an older arduino the RX and TX are shared with
+// The programming FTDI chip, you may need to disconnect RX and TX while programming, then reconnect them
+
 
 #define LED 13   		    // LED pin on Arduino Uno
 
