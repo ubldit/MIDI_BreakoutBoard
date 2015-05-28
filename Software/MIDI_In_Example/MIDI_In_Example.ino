@@ -2,7 +2,8 @@
 // originally by Greg Kennedy 2011 (http://forum.arduino.cc/index.php?topic=79326.0)
 // modified to demo MIDI Breakout by ubld.it
 // 
-// Connect piezo speaker to digital pin 7 (or modify tonePin below)
+// Connect positive side of piezo speaker to digital pin 7 (or modify tonePin below)
+// Connect negative side of piezo speaker to ground (this possibly works vice versa since the pwm goes high low)
 // Connect power from Arduino to MIDI Breakout
 // Connect ground from Arduino to MIDI Breakout
 // Connect rx from Arduino to MIDI Breakout
@@ -11,7 +12,8 @@
 //
 // This demo will play tones using the tone() function when MIDI notes are sent in
 //
-//
+// **** Note that if you are using the RX and TX on the Arduino, if its an older arduino the RX and TX are shared with
+// The programming FTDI chip, you may need to disconnect RX and TX while programming, then reconnect them
 
 #include <avr/pgmspace.h>
 
