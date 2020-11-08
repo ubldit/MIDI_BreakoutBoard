@@ -14,7 +14,7 @@
 
 
 #define LED 13   		    // LED pin on Arduino Uno
-
+MIDI_CREATE_DEFAULT_INSTANCE();
 void setup()
 {
    pinMode(LED, OUTPUT);
